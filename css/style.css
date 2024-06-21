@@ -103,13 +103,14 @@ body {
   color: var(--logo-color);
 }
 
+.header-hover-item {
+  color: var(--main-text-color);
+}
+
 .header-link {
   color: var(--main-text-color);
 }
 
-.header-link:visited {
-  color: var(--main-text-color);
-}
 
 .header-first-link,
 .header-second-link {
