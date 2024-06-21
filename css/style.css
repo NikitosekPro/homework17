@@ -103,6 +103,10 @@ body {
   color: var(--main-text-color);
 }
 
+.header-link:visited {
+  color: var(--main-text-color);
+}
+
 .header-first-link,
 .header-second-link {
   line-height: (calc(16 / 14));
