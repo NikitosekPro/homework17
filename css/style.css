@@ -73,6 +73,10 @@ body {
   line-height: (calc(16 / 14));
 }
 
+.header-nav-link {
+  color: var(--main-text-color);
+}
+
 .header-list {
   display: flex;
   flex-wrap: wrap;
