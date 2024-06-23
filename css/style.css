@@ -29,6 +29,7 @@ body {
 
 /* HEADER */
 
+
 .header {
     background-color: var(--main-background-color);
 }
@@ -37,9 +38,7 @@ body {
     margin-bottom: 94px;
 }
 
-.header-nav-link {
-    color: var(--main-text-color);
-}
+
 
 
 .header-contact-link {
@@ -82,6 +81,7 @@ body {
 .header-nav {
     font-weight: 500;
     line-height: (calc(16 / 14));
+    color: var(--main-text-color);
 }
 
 .header-list {
@@ -111,16 +111,18 @@ body {
 }
 
 .header-hover-item {
-    color: var(--main-text-color);
+    color:var(--main-text-color);
+}
+
+.contacts {
+    color: var(--third-text-color);
 }
 
 .header-hover-item:is(:focus, :hover) {
     color: var(--logo-color);
 }
 
-.header-link {
-    color: var(--main-text-color);
-}
+
 
 .header-first-link,
 .header-second-link {
@@ -134,12 +136,14 @@ body {
     flex-wrap: wrap;
     margin-top: 32px;
     margin-bottom: 32px;
+    color: var(--third-text-color);
 }
 
 .header-contact-link {
     line-height: 16px;
     color: var(--third-text-color);
 }
+
 
 /* MAIN */
 
