@@ -114,13 +114,16 @@ body {
     color:var(--main-text-color);
 }
 
-.contacts {
-    color: var(--third-text-color);
-}
 
 .header-hover-item:is(:focus, :hover) {
     color: var(--logo-color);
 }
+
+.contacts {
+    color: var(--third-text-color);
+}
+
+
 
 
 
